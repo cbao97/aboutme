@@ -185,9 +185,9 @@ class MainPage extends Component {
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                                            <figure className="cc-effect"><img src="asset/images/wedding.jpg" alt="Image" />
+                                                            <figure className="cc-effect"><img src="asset/images/wedding.JPG" alt="Image" />
                                                                 <figcaption>
-                                                                    <div className="h4">Food Order Project</div>
+                                                                    <div className="h4">Wedding Project</div>
                                                                     <p>Web Development</p>
                                                                 </figcaption>
                                                             </figure></a></div>
@@ -288,14 +288,14 @@ class MainPage extends Component {
                                         <div className="row">
                                             <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body cc-experience-header">
-                                                    <p>March 2016 - Present</p>
-                                                    <div className="h5">CreativeM</div>
+                                                    <p>May 2020 - July 2020</p>
+                                                    <div className="h5">Beeheexa</div>
                                                 </div>
                                             </div>
                                             <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body">
-                                                    <div className="h5">Front End Developer</div>
-                                                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                                                    <div className="h5">Front End Developer Internship</div>
+                                                    <p>Learning and applying ReactJS/NodeJs and MongoDB to build up a tracking patient routine</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -304,14 +304,14 @@ class MainPage extends Component {
                                         <div className="row">
                                             <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body cc-experience-header">
-                                                    <p>April 2014 - March 2016</p>
-                                                    <div className="h5">WebNote</div>
+                                                    <p>January 2020 - March 2020</p>
+                                                    <div className="h5">Amit group</div>
                                                 </div>
                                             </div>
                                             <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body">
-                                                    <div className="h5">Web Developer</div>
-                                                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                                                    <div className="h5">Bussiness Analyst</div>
+                                                    <p></p> 
                                                 </div>
                                             </div>
                                         </div>
@@ -324,10 +324,11 @@ class MainPage extends Component {
                                                     <div className="h5">WEBM</div>
                                                 </div>
                                             </div>
+
                                             <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body">
-                                                    <div className="h5">Intern</div>
-                                                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                                                    <div className="h5">Aureole IT Intern</div>
+                                                    <p> Working with VB.net/Oracle, learning Japanese work culture  </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -341,32 +342,15 @@ class MainPage extends Component {
                                         <div className="row">
                                             <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body cc-education-header">
-                                                    <p>2013 - 2015</p>
-                                                    <div className="h5">Master's Degree</div>
-                                                </div>
-                                            </div>
-                                            <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
-                                                <div className="card-body">
-                                                    <div className="h5">Master of Information Technology</div>
-                                                    <p className="category">University of Computer Science</p>
-                                                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="card">
-                                        <div className="row">
-                                            <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
-                                                <div className="card-body cc-education-header">
-                                                    <p>2009 - 2013</p>
+                                                    <p>2015 - 2020</p>
                                                     <div className="h5">Bachelor's Degree</div>
                                                 </div>
                                             </div>
                                             <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body">
-                                                    <div className="h5">Bachelor of Computer Science</div>
-                                                    <p className="category">University of Computer Science</p>
-                                                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                                                    <div className="h5">Bachelor of Information System</div>
+                                                    <p className="category">University of Information Technology</p>
+                                                    {/* <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -375,15 +359,15 @@ class MainPage extends Component {
                                         <div className="row">
                                             <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body cc-education-header">
-                                                    <p>2007 - 2009</p>
+                                                    <p>2015 - 2012</p>
                                                     <div className="h5">High School</div>
                                                 </div>
                                             </div>
                                             <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body">
-                                                    <div className="h5">Science and Mathematics</div>
-                                                    <p className="category">School of Secondary board</p>
-                                                    <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                                                    <div className="h5"> Quang Trung High School</div>
+                                                    <p className="category">Go Dau, Tay Ninh</p>
+                                                    {/* <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p> */}
                                                 </div>
                                             </div>
                                         </div>
