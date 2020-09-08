@@ -30,12 +30,12 @@ class MainPage extends Component {
                             <div className="profile-page">
                                 <div className="wrapper">
                                     <div className="page-header page-header-small" filter-color="green">
-                                        <div className="page-header-image" data-parallax="true" style={{ backgroundImage: 'url("images/cc-bg-1.jpg")' }} />
+                                        <div className="page-header-image" data-parallax="true" style={{ backgroundImage: 'url("asset/images/cc-bg-1.jpg")' }} />
                                         <div className="container">
                                             <div className="content-center">
-                                                <div className="cc-profile-image"><a href="#"><img src="asset/images/anthony.jpg" alt="Image" /></a></div>
-                                                <div className="h2 title">Anthony Barnett</div>
-                                                <p className="category text-white">Web Developer, Graphic Designer,  Photographer</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+                                                <div className="cc-profile-image"><a href="#"><img src="asset/images/3x4.jpg" alt="Image" /></a></div>
+                                                <div className="h2 title">Đỗ Chí Bảo</div>
+                                                <p className="category text-white">Developer</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
                                             </div>
                                         </div>
                                         <div className="section">
@@ -53,8 +53,10 @@ class MainPage extends Component {
                                             <div className="col-lg-6 col-md-12">
                                                 <div className="card-body">
                                                     <div className="h4 mt-0 title">About</div>
-                                                    <p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.</p>
-                                                    <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
+                                                    <p>Greeting! My name is Bao. I'm 23 years old, I have just graduated from the University of information technology in May with major in Information System.</p>
+                                                    <p>My English level is intermediate with TOEIC certificate listening and reading 660. Japanese at beginer JLPT N4 </p>
+                                                    {/* <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a> */}
+                                                    <p>My strength is highly adaptability, self-learning and working at team</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-md-12">
@@ -62,23 +64,23 @@ class MainPage extends Component {
                                                     <div className="h4 mt-0 title">Basic Information</div>
                                                     <div className="row">
                                                         <div className="col-sm-4"><strong className="text-uppercase">Age:</strong></div>
-                                                        <div className="col-sm-8">24</div>
+                                                        <div className="col-sm-8">23</div>
                                                     </div>
                                                     <div className="row mt-3">
                                                         <div className="col-sm-4"><strong className="text-uppercase">Email:</strong></div>
-                                                        <div className="col-sm-8">anthony@company.com</div>
+                                                        <div className="col-sm-8">cbao97@gmail.com</div>
                                                     </div>
                                                     <div className="row mt-3">
                                                         <div className="col-sm-4"><strong className="text-uppercase">Phone:</strong></div>
-                                                        <div className="col-sm-8">+1718-111-0011</div>
+                                                        <div className="col-sm-8">0964 9939 85</div>
                                                     </div>
                                                     <div className="row mt-3">
                                                         <div className="col-sm-4"><strong className="text-uppercase">Address:</strong></div>
-                                                        <div className="col-sm-8">140, City Center, New York, U.S.A</div>
+                                                        <div className="col-sm-8">HCMC National University Dormitory Zone B, Linh Trung , Thu Duc, Ho Chi Minh City </div>
                                                     </div>
                                                     <div className="row mt-3">
                                                         <div className="col-sm-4"><strong className="text-uppercase">Language:</strong></div>
-                                                        <div className="col-sm-8">English, German, French</div>
+                                                        <div className="col-sm-8">Vietnamese, English, Japanese</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -95,14 +97,14 @@ class MainPage extends Component {
                                                 <div className="col-md-6">
                                                     <div className="progress-container progress-primary"><span className="progress-badge">HTML</span>
                                                         <div className="progress">
-                                                            <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} /><span className="progress-value">80%</span>
+                                                            <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '70%' }} /><span className="progress-value">70%</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-6">
                                                     <div className="progress-container progress-primary"><span className="progress-badge">CSS</span>
                                                         <div className="progress">
-                                                            <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '75%' }} /><span className="progress-value">75%</span>
+                                                            <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '60%' }} /><span className="progress-value">60%</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -116,28 +118,37 @@ class MainPage extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="col-md-6">
-                                                    <div className="progress-container progress-primary"><span className="progress-badge">SASS</span>
+                                                    <div className="progress-container progress-primary"><span className="progress-badge">SQL</span>
                                                         <div className="progress">
-                                                            <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '60%' }} /><span className="progress-value">60%</span>
+                                                            <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '70%' }} /><span className="progress-value">70%</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="row">
                                                 <div className="col-md-6">
-                                                    <div className="progress-container progress-primary"><span className="progress-badge">Bootstrap</span>
+                                                    <div className="progress-container progress-primary"><span className="progress-badge">English</span>
                                                         <div className="progress">
                                                             <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '75%' }} /><span className="progress-value">75%</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-6">
-                                                    <div className="progress-container progress-primary"><span className="progress-badge">Photoshop</span>
+                                                    <div className="progress-container progress-primary"><span className="progress-badge">Japanese (In progress)</span>
                                                         <div className="progress">
-                                                            <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '70%' }} /><span className="progress-value">70%</span>
+                                                            <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '40%' }} /><span className="progress-value">40%</span>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
+                                            <div className="row">
+                                                <div className="col-md-6">
+                                                    <div className="progress-container progress-primary"><span className="progress-badge">Scrum</span>
+                                                        <div className="progress">
+                                                            <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} /><span className="progress-value">80%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>                                               
                                             </div>
                                         </div>
                                     </div>
@@ -163,40 +174,35 @@ class MainPage extends Component {
                                                 <div className="row">
                                                     <div className="col-md-6">
                                                         <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                                            <figure className="cc-effect"><img src="asset/images/project-1.jpg" alt="Image" />
+                                                            <figure className="cc-effect"><img src="asset/images/Isocovid.JPG" alt="Image" />
                                                                 <figcaption>
                                                                     <div className="h4">Recent Project</div>
                                                                     <p>Web Development</p>
+                                                                    <p>Covid-19 Map and surveys</p>
                                                                 </figcaption>
                                                             </figure></a></div>
-                                                        <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                                            <figure className="cc-effect"><img src="images/project-2.jpg" alt="Image" />
-                                                                <figcaption>
-                                                                    <div className="h4">Startup Project</div>
-                                                                    <p>Web Development</p>
-                                                                </figcaption>
-                                                            </figure></a></div>
+                                                      
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                                            <figure className="cc-effect"><img src="images/project-3.jpg" alt="Image" />
+                                                            <figure className="cc-effect"><img src="asset/images/wedding.jpg" alt="Image" />
                                                                 <figcaption>
                                                                     <div className="h4">Food Order Project</div>
                                                                     <p>Web Development</p>
                                                                 </figcaption>
                                                             </figure></a></div>
-                                                        <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                                                        {/* <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
                                                             <figure className="cc-effect"><img src="images/project-4.jpg" alt="Image" />
                                                                 <figcaption>
                                                                     <div className="h4">Web Advertising Project</div>
                                                                     <p>Web Development</p>
                                                                 </figcaption>
-                                                            </figure></a></div>
+                                                            </figure></a></div> */}
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="tab-pane" id="graphic-design" role="tabpanel">
+                                        {/* <div className="tab-pane" id="graphic-design" role="tabpanel">
                                             <div className="ml-auto mr-auto">
                                                 <div className="row">
                                                     <div className="col-md-6">
@@ -270,8 +276,8 @@ class MainPage extends Component {
                                                             </figure></a></div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
+                                            </div> */}
+                                        {/* </div> */}
                                     </div>
                                 </div>
                             </div>
