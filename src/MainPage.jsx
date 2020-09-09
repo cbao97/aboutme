@@ -9,7 +9,7 @@ class MainPage extends Component {
                         <div className="profile-page sidebar-collapse">
                             <nav className="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll={400}>
                                 <div className="container">
-                                    <div className="navbar-translate"><a className="navbar-brand" href="#" rel="tooltip">Creative CV</a>
+                                    <div className="navbar-translate"><a className="navbar-brand" href="#" rel="tooltip">Do Chi Bao CV</a>
                                         <button className="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-bar bar1" /><span className="navbar-toggler-bar bar2" /><span className="navbar-toggler-bar bar3" /></button>
                                     </div>
                                     <div className="collapse navbar-collapse justify-content-end" id="navigation">
@@ -35,12 +35,16 @@ class MainPage extends Component {
                                             <div className="content-center">
                                                 <div className="cc-profile-image"><a href="#"><img src="asset/images/3x4.jpg" alt="Image" /></a></div>
                                                 <div className="h2 title">Đỗ Chí Bảo</div>
-                                                <p className="category text-white">Developer</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+                                                <p className="category text-white">Developer</p>
+                                                <a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a>
+                                                <a className="btn btn-primary" href="https://drive.google.com/file/d/1cdIOk8xDlYjfmo6z_aNJr9zDBDK224F7/view?usp=sharing" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
                                             </div>
                                         </div>
                                         <div className="section">
                                             <div className="container">
-                                                <div className="button-container"><a className="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i className="fa fa-facebook" /></a><a className="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter"><i className="fa fa-twitter" /></a><a className="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Google+"><i className="fa fa-google-plus" /></a><a className="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i className="fa fa-instagram" /></a></div>
+                                                <div className="button-container">
+                                                    <a className="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/cbao97/" rel="tooltip" title="Follow me on Facebook"><i className="fa fa-facebook" /></a>
+                                                    </div>
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +80,7 @@ class MainPage extends Component {
                                                     </div>
                                                     <div className="row mt-3">
                                                         <div className="col-sm-4"><strong className="text-uppercase">Address:</strong></div>
-                                                        <div className="col-sm-8">HCMC National University Dormitory Zone B, Linh Trung , Thu Duc, Ho Chi Minh City </div>
+                                                        <div className="col-sm-8">HCMC National University Dormitory Zone B, Linh Trung , Thu Duc, Ho Chi Minh City, VietNam </div>
                                                     </div>
                                                     <div className="row mt-3">
                                                         <div className="col-sm-4"><strong className="text-uppercase">Language:</strong></div>
@@ -148,7 +152,7 @@ class MainPage extends Component {
                                                             <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }} /><span className="progress-value">80%</span>
                                                         </div>
                                                     </div>
-                                                </div>                                               
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -175,13 +179,13 @@ class MainPage extends Component {
                                                     <div className="col-md-6">
                                                         <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
                                                             <figure className="cc-effect"><img src="asset/images/Isocovid.JPG" alt="Image" />
-                                                                <figcaption>
+                                                                <figcaption href="http://isocovid.ft-jsc.com/">
                                                                     <div className="h4">Recent Project</div>
                                                                     <p>Web Development</p>
                                                                     <p>Covid-19 Map and surveys</p>
                                                                 </figcaption>
                                                             </figure></a></div>
-                                                      
+
                                                     </div>
                                                     <div className="col-md-6">
                                                         <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
@@ -311,7 +315,7 @@ class MainPage extends Component {
                                             <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body">
                                                     <div className="h5">Bussiness Analyst</div>
-                                                    <p></p> 
+                                                    <p>Working with Draw.io, Take requests from customers turn into workflow and Database design</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -320,14 +324,14 @@ class MainPage extends Component {
                                         <div className="row">
                                             <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body cc-experience-header">
-                                                    <p>April 2013 - February 2014</p>
-                                                    <div className="h5">WEBM</div>
+                                                    <p>July 2018- September 2018</p>
+                                                    <div className="h5">Aureole IT</div>
                                                 </div>
                                             </div>
 
                                             <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                                                 <div className="card-body">
-                                                    <div className="h5">Aureole IT Intern</div>
+                                                    <div className="h5">Dot Net Intern</div>
                                                     <p> Working with VB.net/Oracle, learning Japanese work culture  </p>
                                                 </div>
                                             </div>
@@ -374,7 +378,7 @@ class MainPage extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="section" id="reference">
+                            {/* <div className="section" id="reference">
                                 <div className="container cc-reference">
                                     <div className="h4 mb-4 text-center title">References</div>
                                     <div className="card" data-aos="zoom-in">
@@ -422,7 +426,7 @@ class MainPage extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="section" id="contact">
                                 <div className="cc-contact-information" style={{ backgroundImage: 'url("images/staticmap.png")' }}>
                                     <div className="container">
@@ -475,11 +479,11 @@ class MainPage extends Component {
                                                             <div className="col-md-6">
                                                                 <div className="card-body">
                                                                     <p className="mb-0"><strong>Address </strong></p>
-                                                                    <p className="pb-2">140, City Center, New York, U.S.A</p>
+                                                                    <p className="pb-2">HCMC National University Dormitory Zone B, Linh Trung , Thu Duc, Ho Chi Minh City, VietNam </p>
                                                                     <p className="mb-0"><strong>Phone</strong></p>
-                                                                    <p className="pb-2">+1718-111-0011</p>
+                                                                    <p className="pb-2">0964 9939 85</p>
                                                                     <p className="mb-0"><strong>Email</strong></p>
-                                                                    <p>anthony@company.com</p>
+                                                                    <p>cbao97@gmail.com</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -492,11 +496,10 @@ class MainPage extends Component {
                             </div></div>
                     </div>
                     <footer className="footer">
-                        <div className="container text-center"><a className="cc-facebook btn btn-link" href="#"><i className="fa fa-facebook fa-2x " aria-hidden="true" /></a><a className="cc-twitter btn btn-link " href="#"><i className="fa fa-twitter fa-2x " aria-hidden="true" /></a><a className="cc-google-plus btn btn-link" href="#"><i className="fa fa-google-plus fa-2x" aria-hidden="true" /></a><a className="cc-instagram btn btn-link" href="#"><i className="fa fa-instagram fa-2x " aria-hidden="true" /></a></div>
-                        <div className="h4 title text-center">Anthony Barnett</div>
-                        <div className="text-center text-muted">
-                            <p>© Creative CV. All rights reserved.<br />Design - <a className="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+                        <div className="container text-center"><a className="cc-facebook btn btn-link" href="https://www.facebook.com/cbao97/"><i className="fa fa-facebook fa-2x " aria-hidden="true" /></a>
                         </div>
+                        <div className="h4 title text-center">Đỗ Chí Bảo</div>
+
                     </footer>
                 </div>
             </div>
