@@ -1,40 +1,7 @@
 import React, { Component } from 'react'
 import axios from "axios";
 class MainPage extends Component {
-    constructor() {
-        super();
-        this.handleSubmit = this.handleSubmit.bind(this);
-    }
-    handleSubmit(event) {
-        event.preventDefault();
-        this.submit()
-    }
-    async submit() {
-        let body = {
-            key: "8934f0fde61ee527dad2fcc1aefdf513-us2",
-            message: {
-                from_email: "user email",
-                to: [
-                    {
-                        email: 'cbao97@gmail.com',
-                        name: 'get name ',
-                        type: 'to'
-                    }
-                ],
-                autotext: 'true',
-                subject: "New contact",
-                html: '<div>new message </div>'
-            }
-        };
-        axios
-        .post("https://mandrillapp.com/api/1.0/messages/send.json", body)
-        .then(function(response) {
-            console.log(response.data);
-        })
-        .catch(function(error) {
-            console.log(error);
-        });
-    }
+   
     render() {
         return (
             <div>
