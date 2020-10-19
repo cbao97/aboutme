@@ -1,6 +1,40 @@
 import React, { Component } from 'react'
-
+import axios from "axios";
 class MainPage extends Component {
+    constructor() {
+        super();
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+    handleSubmit(event) {
+        event.preventDefault();
+        this.submit()
+    }
+    async submit() {
+        let body = {
+            key: "8934f0fde61ee527dad2fcc1aefdf513-us2",
+            message: {
+                from_email: "user email",
+                to: [
+                    {
+                        email: 'cbao97@gmail.com',
+                        name: 'get name ',
+                        type: 'to'
+                    }
+                ],
+                autotext: 'true',
+                subject: "New contact",
+                html: '<div>new message </div>'
+            }
+        };
+        axios
+        .post("https://mandrillapp.com/api/1.0/messages/send.json", body)
+        .then(function(response) {
+            console.log(response.data);
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+    }
     render() {
         return (
             <div>
@@ -44,7 +78,7 @@ class MainPage extends Component {
                                             <div className="container">
                                                 <div className="button-container">
                                                     <a className="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/cbao97/" rel="tooltip" title="Follow me on Facebook"><i className="fa fa-facebook" /></a>
-                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -438,7 +472,7 @@ class MainPage extends Component {
                                                         <div className="row">
                                                             <div className="col-md-6">
                                                                 <div className="card-body">
-                                                                    <form action="https://formspree.io/your@email.com" method="POST">
+                                                                    <form action="https://formspree.io/cbao97@gmail.com" method="POST">
                                                                         <div className="p pb-3"><strong>Feel free to contact me </strong></div>
                                                                         <div className="row mb-3">
                                                                             <div className="col">
@@ -474,6 +508,7 @@ class MainPage extends Component {
                                                                             </div>
                                                                         </div>
                                                                     </form>
+
                                                                 </div>
                                                             </div>
                                                             <div className="col-md-6">
